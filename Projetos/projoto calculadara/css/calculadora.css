@@ -1,0 +1,101 @@
+@import url("bitcon.css");
+
+/* RESET GERAL */
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body{
+
+    background: url(../BITCON.webp);
+    background-size: cover;
+}
+
+.fundo {
+
+    
+    height: 100vh;
+    color: #fff;
+
+    display: grid;
+    place-items: center;
+
+}
+
+.fundo h1 {
+
+    position: absolute;
+    top: 5%;
+    font-size: 2.5rem;
+    text-shadow: 3px 3px #000;
+}
+
+.calculadora {
+
+    background: #000000a4;
+    padding: 1rem;
+    border-radius: 10px;
+
+}
+
+.calculadora h2 {
+
+    color: crimson;
+    text-align: center;
+
+}
+
+#resultado {
+
+    background-color: #fff;
+    color: #000;
+    text-align: right;
+    padding: 0 5px;
+    font-size: 1.8rem;
+    border-radius: 5px;
+    margin: 1rem auto .4rem;
+    width: 95%;
+
+}
+
+button {
+
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+    margin: 3px;
+    box-shadow: 3px 3px #413f3f;
+    transition: box-shadow 1s;
+
+}
+
+button:hover {
+
+    box-shadow: 3px 3px crimson;
+    transform: scale(110%)
+
+}
+
+button:active {
+
+    transform: scale(90%);
+}
+
+td[rowspan="2"] button{
+
+    height: 108px;
+
+}
+
+td[colspan="2"] button{
+
+    width: 108px;
+}

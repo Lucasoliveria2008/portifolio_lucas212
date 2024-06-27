@@ -1,0 +1,90 @@
+/* RESET GERAL */
+
+@font-face{
+
+    font-family: cyborg;
+    src: url('../fonts/Cyborg\ Punk.ttf') ;
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cyborg;
+}
+
+body{
+    background: url("https://i.pinimg.com/originals/d5/49/7c/d5497c74187132e5ec2a4045d860a3cc.gif");
+    background-size: cover;
+    height:100vh;
+    display: grid;
+    place-items: center;
+}
+
+h1 {
+
+    position: absolute;
+    top: 15%;
+    width: center;
+    text-align: center;
+}
+
+.relogio {
+
+    background: transparent;
+    width: 90%;
+    padding: 3% 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 8px 10px #00000070;
+    border-radius: 5px;
+
+}
+
+.relogio div {
+    
+    width: 80%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 7px;
+    letter-spacing: 3px;
+    color: #fff;
+    background: #000000e5;
+    box-shadow: 5px 5px 15px #000000bd;
+    margin: 2%;
+    padding: 3%;
+
+}
+
+.relogio spam {
+
+    font-weight: bolder;
+    font-size: 4rem;
+
+}
+
+.relogio spam.tempo {
+
+    font-size: 7rem;
+
+}
+
+@media (max-width:700px) {
+    h1 {
+        top: 5%;
+        font-size: 1.5rem;
+    }
+
+    .relogio {
+        flex-direction: column;
+        width: 60%;
+    }
+
+}
+
+

@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Flexo-Regular, arial, sans-serif;
+}
+
+body {
+    background: url(https://cdn.lospec.com/gallery/detective-pikachu-vs-the-crime-322897.gif) ;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-size: cover;
+}
+
+main {
+    background: url(../images/pokedex.png) no-repeat center;
+    background-size: 100% 100%;
+    width: 23rem;
+    height: 38rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+img {
+    width: 6rem;
+    position: absolute;
+    top: 12rem;
+    left: 7rem;
+    height: 5.5rem;
+}
+
+.pokemon__data {
+    font-weight: 600;
+    color: #aaa;
+    font-size: 1.6rem;
+    position: absolute;
+    top: 55%;
+    left: 24%;
+}
+
+.pokemon__name {
+    color: #3a444d;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.form {
+    width: 65%;
+    position: absolute;
+    bottom: 25%;
+    left: 17%;
+}
+
+input {
+    width: 100%;
+    border: 2px solid #333;
+    padding: 3%;
+    outline: none;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #3a444d;
+    font-size: 1.4rem;
+    box-shadow: -3px 4px #888, -5px 7px #333;
+    background-color: #eee;
+}
+
+.buttons{
+    width: 65%;
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    bottom: 10%;
+    left: 17%;
+}
+
+.button{
+    width: 50%;
+    padding: 4%;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #444;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: -2px 3px #222, -4px 6px #000;
+}
+
+button:active{
+    font-size: .9rem;
+    box-shadow: inset -4px 4px #222;
+}

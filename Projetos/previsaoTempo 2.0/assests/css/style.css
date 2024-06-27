@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    outline: none;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    /* Altura / vh - altura */
+    width: 100vw;
+    /*  vw - largura */
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+    color: #fff;
+}
+
+.caixa_maior {
+    background-color: #000;/*  Troca cor de fundo  */
+    width: 95%; /*  Largura  */
+    max-width: 420px; /*  Largura  Maxima */
+    opacity: 0.8;/* transparencia do item */
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.caixa_maior .input_cidade {
+    padding: .625rem;
+    border-radius: 1.5rem;
+    font-size: 1.25rem;
+    background-color: #7c7c7c2b;
+    width: calc(100% - 6.25rem);
+    color: #fff;
+}
+
+.botao_buscar {
+    padding: .625rem;
+    border-radius: 50px;
+    background-color: #7c7c7c2b;
+    float: right;
+    cursor: pointer;
+}
+
+.botao_buscar:hover {
+    background-color: #7c7c7c6b;
+}
+
+.lupa {
+    height: 1.25rem;
+}
+
+.caixa_media {
+
+    margin-top: 2rem;
+}
+
+.caixa_menor {
+    
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.tempo {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.descricao {
+    margin-left: 1.25rem;
+    text-transform: capitalize; /* Deixa a primeira letra maiuscula*/
+
+}
+
+.umidade {
+    margin-top: 2rem;
+    
+}
+
+
+
